@@ -15,14 +15,14 @@ class GameCard extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return SizedBox(
       height: size.width > 400 ? size.height * .5 : 380,
-      width: size.width > 400 ? size.width * .5 : 380,
+      width: size.width > 400 ? size.width * .8 : 380,
       child: Stack(
         children: [
           Center(
             child: Image.asset(
               'assets/$id.png',
               height: size.width > 400 ? size.height * .5 : 380,
-              width: size.width > 400 ? size.width * .5 : 380,
+              width: size.width > 400 ? size.width * .8 : 380,
               fit: BoxFit.fill,
             ),
           ),

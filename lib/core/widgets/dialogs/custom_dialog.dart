@@ -13,7 +13,7 @@ class CustomDialog extends StatelessWidget {
     return Center(
       child: SizedBox(
         width: 430,
-        height: size.height * .5,
+        height: size.height * .7,
         child: Stack(
           alignment: Alignment.center,
           children: [

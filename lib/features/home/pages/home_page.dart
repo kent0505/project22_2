@@ -1,8 +1,8 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project22/common/assets.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
+import '../../../common/assets.dart';
 import '../../../core/models/page_model.dart';
 import '../../../core/utils.dart';
 import '../../../core/widgets/custom_scaffold.dart';
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       title: 'title',
       win: Assets.slot1Win,
       gameOver: Assets.slot1Gameover,
-      color: Color(0xFFFF5E60),
+      color: const Color(0xFFFF5E60),
       bg: 0,
       items: [
         Assets.slot1El1,
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
         "The limited time pushes you to act quickly and strategically, collecting as much gold as possible.",
         "If you fail to complete the task, the main character is in danger of defeat, but each attempt brings him closer to mastery and the title of a legendary gold hunter.",
       ],
-      gradient: LinearGradient(
+      gradient: const LinearGradient(
         colors: [
           Color(0xFF7E114D),
           Color(0xFF56117E),
@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
       title: 'title',
       win: Assets.slot2Win,
       gameOver: Assets.slot2Gameover,
-      color: Color(0xFF5EFF7B),
+      color: const Color(0xFF5EFF7B),
       bg: 0,
       stories: [
         "In \"Happy Monkey\" the player finds himself in a wild tropical wilderness, where monkeys and ancient ruins create an atmosphere of exciting adventures and dangers.",
@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
         Assets.slot2El18,
         Assets.slot2El19,
       ],
-      gradient: LinearGradient(colors: [
+      gradient: const LinearGradient(colors: [
         Color(0xFF377E11),
         Color(0xFF117E11),
       ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
       title: 'title',
       win: Assets.slot3Win,
       gameOver: Assets.slot3Gameover,
-      color: Color(0xFFFF5E5E),
+      color: const Color(0xFFFF5E5E),
       bg: 0,
       stories: [
         "In \"Lucky Joker\" the player finds himself in a world of bright lights and mysterious attractions, where the lucky joker creates an atmosphere of bright performances and intrigue.",
@@ -145,7 +145,7 @@ class _HomePageState extends State<HomePage> {
         Assets.slot3El18,
         Assets.slot3El19,
       ],
-      gradient: LinearGradient(colors: [
+      gradient: const LinearGradient(colors: [
         Color(0xFF7E1511),
         Color(0xFF7E1111),
       ], begin: Alignment.topCenter, end: Alignment.bottomCenter),

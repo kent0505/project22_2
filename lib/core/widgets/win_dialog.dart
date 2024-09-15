@@ -170,9 +170,9 @@ class _RewardSlotDialogState extends State<RewardSlotDialog> {
                             ),
                           ),
                           onPressed: () {
-                            if (widget.isWin) {
-                              context.pop();
-                            }
+                            // if (widget.isWin) {
+                            //   context.pop();
+                            // }
                             context.pop();
                           },
                         ),
